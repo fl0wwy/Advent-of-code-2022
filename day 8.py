@@ -52,10 +52,10 @@ for i in r:
         # Starting after (n) until the end of the string    
         elif row(n,i[c+1::])[0] == True:   
             trees += 1
-        # Starting from the string before (i) and iterating backwards to r[0], with the index of (n) as the function variable   
+        # Starting from the string before (i) and iterating backwards to r[0], with the index of (n) (c) as the function variable   
         elif column(n,r[ind-1::-1],c)[0] == True:
             trees += 1
-        # Starting after the string (i) until the last string, with the index of (n) as the function variable   
+        # Starting after the string (i) until the last string, with the index of (n) (c) as the function variable   
         elif column(n,r[ind+1::],c)[0] == True:
             trees += 1 
         # Part 2
