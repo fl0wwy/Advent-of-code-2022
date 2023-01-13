@@ -35,7 +35,7 @@ def column(n,iteration,index):
 # Now we iterate over the list of trees, skipping all the edges.
 # For part 1, we check if any of our functions return True. if so, 
 # that means the tree is visible from one of the directions at least. therefore we increase the amount of visible trees by 1.
-# For part 2, we declare a var called "Highest scenic" = 0, replacing its value each time a higher one is calculated.
+# For part 2, we declare a var that equals to 0, replacing its value each time a higher one is calculated.
 highest_scenic = 0
 for i in r:
     if i == r[0] or i == r[-1]:
