@@ -20,7 +20,7 @@ def row(n,iteration):
             return (False,l)
     return (True,l)    
 def column(n,iteration,index):
-    """A function that takes a number(n), a list(iteration) and and index(index) and iteraters over the list of strings.
+    """A function that takes a number(n), a list(iteration) and an index(index) and iteraters over the list of strings.
     if the character in the specific index of the string is larger or equal to that of the number(n), 
     returns a tuple with False and the number of iterations,
     else return a tuple with True and the number of iterations"""
