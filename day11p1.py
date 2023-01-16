@@ -14,7 +14,7 @@ class Monkey():
         #condition (divisible by:)
         self.test : int = 0
         #operation (new = old * {operand})
-        self.operation: str = ''
+        self.operation : str = ''
     def move(self,monkey,amount):
         monkey.items.append(amount)
         self.inspections += 1
